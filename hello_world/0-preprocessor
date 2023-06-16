@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp -P "$C" -o "$c"
+gcc -P $CFILE -o c
