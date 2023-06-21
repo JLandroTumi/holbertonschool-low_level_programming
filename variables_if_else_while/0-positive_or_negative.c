@@ -9,10 +9,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-	printf("El numero $d es positivo.\n", n)
+	printf("is positive\n", n)
 	else if (n < 0)
-	printf("El numero $d es negativo.\n", n)
+	printf("is negative\n", n)
 	else
-	printf("El numero es cero.\n")
+	printf("is zero\n")
 	return (0);
 }
